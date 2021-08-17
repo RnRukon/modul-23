@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello js</title>
+
+    <style>
+        body {
+            background-color: rgb(245, 176, 176);
+
+        }
+
+        /* main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: rgb(0, 129, 49);
+        }
+
+        .blog {
+            border: 2px solid orange;
+            width: 600px;
+
+        } */
+    </style>
+</head>
+
+<body>
+    <main>
+
+        <h1 id="heading">Hello JavaScript</h1>
+
+        <article class="blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia nemo libero enim adipisci,
+            reprehenderit laborum ut similique eius nostrum illum nam voluptatem aliquam. Nulla quam nesciunt
+            exercitationem asperiores. Mollitia.
+        </article>
+        <h1>Hello JavaScript</h1>
+
+        <article class="blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia nemo libero enim adipisci,
+            reprehenderit laborum ut similique eius nostrum illum nam voluptatem aliquam. Nulla quam nesciunt
+            exercitationem asperiores. Mollitia.
+        </article>
+        <h1>Hello JavaScript</h1>
+
+        <article class="blog">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia nemo libero enim adipisci,
+            reprehenderit laborum ut similique eius nostrum illum nam voluptatem aliquam. Nulla quam nesciunt
+            exercitationem asperiores. Mollitia.
+        </article>
+    </main>
+
+
+    <script>
+        console.log(document);
+        document.getElementById('heading');
+        heading.style.textAlign = 'center';
+
+        const blogs = document.getElementsByClassName('blog');
+        for (const blog of blogs) {
+            blog.style.border = '2px solid red';
+            blog.style.borderRadius = "5px";
+            blog.style.padding = "10px";
+        }
+    </script>
+</body>
+
+</html>
